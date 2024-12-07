@@ -13,7 +13,7 @@ setupDirectories();
 const app = express();
 app.use(express.json());
 
-app.post("/process-video", async (req, res) => {
+app.post("/process-video", async (req, res): Promise<any> => {
     let data;
     try {
         const message = Buffer.from(req.body.message.data, "base64").toString('utf8');

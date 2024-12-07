@@ -84,7 +84,7 @@ export function deleteProcessedVideo(processedVideo: string) {
  * @param filePath Path of the file to be deleted
  * @returns 
  */
-function deleteFile(filePath: string) {
+function deleteFile(filePath: string): Promise<void> {
     return new Promise((resolve, reject) => {
         if (fs.existsSync(filePath)) {
             fs.unlink(filePath, (err) => {
