@@ -40,4 +40,4 @@ yarn-error.log*
 next-env.d.ts
 
 # firebase api key
-firebase.ts
+app/firebase/firebase.ts
