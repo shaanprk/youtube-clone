@@ -29,18 +29,39 @@
   </a>
 </p>
 
-<p align="center">
+<div id="project-overview">
+  <h4 align="center">
+    Project Overview
+  </h4>
+
+  <p>
+    This is a Youtube clone leveraging Google Cloud Services and Firebase Services to mimic uploading, storing, user creation processes.
+  </p>
+</div>
+
+<div id="tech-stack">
+  <h4 align="center">
+    Tech Stack
+  </h4>
+
+  <p>
   Specific Google Cloud Services used:
+  </p>
   <ul>
     <li>Cloud Storage</li>
     <li>Cloud Run</li>
     <li>Cloud Pub/Sub</li>
   </ul>
 
-  Specific Firebase Services used:
+  <p>
+    Specific Firebase Services used:
+  </p>
   <ul>
     <li>Firebase Auth</li>
     <li>Firebase Firestore</li>
     <li>Firebase Functions</li>
   </ul>
-</p>
+</div>
+
+
+
